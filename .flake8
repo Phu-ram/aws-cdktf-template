@@ -1,0 +1,9 @@
+[flake8]
+# enable checks for google-style docstrings
+# https://www.pydocstyle.org/en/latest/error_codes.html
+# https://github.com/terrencepreilly/darglint#error-codes
+# In flake8, for example D2 means enable all D2xx codes
+# D1 is not enabled as the funtionality overlaps with pylint
+select = DAR,D2,D3,D4
+docstring-convention = google
+

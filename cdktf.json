@@ -1,6 +1,6 @@
 {
   "language": "python",
-  "app": "poetry run python main.py",
+  "app": "poetry run python src/main.py",
   "projectId": "8b4729a5-3904-432e-b9f9-7b0adf602e4f",
   "sendCrashReports": "false",
   "terraformProviders": [],
