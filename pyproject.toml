@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cdktf-aws"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+pytest = "*"
+cdktf-cdktf-provider-aws = "^18.0.6"
+cdktf = "^0.19.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
